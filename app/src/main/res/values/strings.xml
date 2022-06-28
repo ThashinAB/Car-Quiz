@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Car Brands</string>
+    <string name="car_brand_title">Welcome to Car Brands</string>
+    <string name="identify">Identify</string>
+    <string name="picture_of_a_car">Picture of a car</string>
+    <string name="first_picture_of_a_car">First Picture</string>
+    <string name="second_picture_of_a_car">Second picture</string>
+    <string name="third_picture_of_a_car">Third picture</string>
+    <string name="next">Next</string>
+    <string name="hint_car_image">Hint car image</string>
+    <string name="text_box">Type here</string>
+    <string name="submit_button">Submit</string>
+    <string name="timer">TIMER</string>
+    <string name="identify_car_make_button">Identify the Car Make</string>
+    <string name="identify_car_image_button">Identify the Car Image</string>
+    <string name="hint_button">Hints</string>
+    <string name="advanced_level_button">Advanced Level</string>
+    <string name="correct_text">Correct</string>
+    <string name="wrong_text">Wrong</string>
+    
+    <string-array name="car_brand_names">
+        <item>Audi</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Bugatti</item>
+        <item>Cadillac</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Ferrari</item>
+        <item>Ford</item>
+        <item>Hyundai</item>
+        <item>Jaguar</item>
+        <item>KIA</item>
+        <item>Lamborghini</item>
+        <item>Land-Rover</item>
+        <item>Mazda</item>
+        <item>Mercedes</item>
+        <item>Mini-Cooper</item>
+        <item>Mitsubishi</item>
+        <item>Morris-Garage</item>
+        <item>Nissan</item>
+        <item>Peugeot</item>
+        <item>Porsche</item>
+        <item>Renault</item>
+        <item>Rolls-Royce</item>
+        <item>Suzuki</item>
+        <item>Tata</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+    </string-array>
+
+    <string-array name="hint_car_names">
+        <item>Audi</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Bugatti</item>
+        <item>Cadillac</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Ferrari</item>
+        <item>Ford</item>
+        <item>Hyundai</item>
+        <item>Jaguar</item>
+        <item>KIA</item>
+        <item>Lamborghini</item>
+        <item>LandRover</item>
+        <item>Mazda</item>
+        <item>Mercedes</item>
+        <item>MiniCooper</item>
+        <item>Mitsubishi</item>
+        <item>MorrisGarage</item>
+        <item>Nissan</item>
+        <item>Peugeot</item>
+        <item>Porsche</item>
+        <item>Renault</item>
+        <item>RollsRoyce</item>
+        <item>Suzuki</item>
+        <item>Tata</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+    </string-array>
+
+</resources>

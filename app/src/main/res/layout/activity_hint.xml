@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hint"
+    android:gravity="center"
+    android:background="#D8D7D7">
+
+    <TextView
+        android:id="@+id/textView_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView_hint_car"
+        android:layout_width="232dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/hint_car_image"
+        app:srcCompat="@drawable/audi"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <EditText
+        android:id="@+id/editText_user_input"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/text_box"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:maxLength="1"/>
+
+    <Button
+        android:id="@+id/button_hint_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="@string/submit_button"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/textView_hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginBottom="25dp"
+        android:letterSpacing="1"
+        android:text=""
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="144dp"
+        android:layout_height="25dp"
+        android:text=""
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView_answer"
+        android:layout_width="144dp"
+        android:layout_height="25dp"
+        android:text=""
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFF00"/>
+
+</LinearLayout>

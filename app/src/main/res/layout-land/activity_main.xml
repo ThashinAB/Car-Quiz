@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/backgroundlandscape_image"
+    >
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/car_brand_title"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/button_identify_the_car_make"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/identify_car_make_button"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/button_hints"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_button"
+        android:layout_marginBottom="1dp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <Button
+        android:id="@+id/button_identify_the_car_image"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/identify_car_image_button"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <Button
+        android:id="@+id/button_advanced_level"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/advanced_level_button"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <!-- https://www.tutlane.com/tutorial/android/android-switch-on-off-button-with-examples -->
+    <Switch
+        android:id="@+id/switch_timer"
+        android:layout_width="109dp"
+        android:layout_height="50dp"
+        android:text="@string/timer"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

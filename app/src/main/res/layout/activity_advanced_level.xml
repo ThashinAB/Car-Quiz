@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvancedLevel"
+    android:background="#D8D7D7"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/textView_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView_al_one"
+        android:layout_width="145dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="92dp"
+        android:contentDescription="@string/first_picture_of_a_car"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/audi" />
+
+    <ImageView
+        android:id="@+id/imageView_al_two"
+        android:layout_width="145dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/second_picture_of_a_car"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_al_one"
+        app:srcCompat="@drawable/bentley" />
+
+    <ImageView
+        android:id="@+id/imageView_al_three"
+        android:layout_width="145dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_al_two"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/bmw"
+        android:contentDescription="@string/third_picture_of_a_car"/>
+
+    <EditText
+        android:id="@+id/editText_al_one"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:hint="@string/text_box"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toEndOf="@+id/imageView_al_one"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_answer_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="84dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toEndOf="@+id/imageView_al_one"
+        app:layout_constraintTop_toBottomOf="@+id/editText_al_one"
+        android:textColor="#FFFF00"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editText_al_two"
+        android:layout_width="160dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:hint="@string/text_box"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toEndOf="@+id/imageView_al_two"
+        app:layout_constraintTop_toBottomOf="@+id/textView_answer_one" />
+
+    <TextView
+        android:id="@+id/textView_answer_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toEndOf="@+id/imageView_al_two"
+        app:layout_constraintTop_toBottomOf="@+id/editText_al_two"
+        android:textColor="#FFFF00"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editText_al_three"
+        android:layout_width="160dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="@string/text_box"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toEndOf="@+id/imageView_al_three"
+        app:layout_constraintTop_toBottomOf="@+id/textView_answer_two" />
+
+    <TextView
+        android:id="@+id/textView_answer_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toEndOf="@+id/imageView_al_three"
+        app:layout_constraintTop_toBottomOf="@+id/editText_al_three"
+        android:textColor="#FFFF00"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_al_three"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button_al_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_result" />
+
+    <TextView
+        android:id="@+id/textView_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

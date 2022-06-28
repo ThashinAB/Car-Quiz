@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IdentifyCarMake"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#D8D7D7">
+
+
+    <TextView
+        android:id="@+id/textView_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="20"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView_car"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/picture_of_a_car"
+        app:srcCompat="@drawable/audi"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_dropdown"
+        android:layout_width="180dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/button_identify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/identify"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- https://www.youtube.com/watch?v=on_OrrX7Nw4 -->
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFF00"
+        android:textSize="18sp" />
+
+</LinearLayout>
